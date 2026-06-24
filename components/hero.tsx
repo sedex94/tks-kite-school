@@ -8,7 +8,7 @@ export function Hero() {
       <img
         src="/images/hero-kite.jpg"
         alt="Kitesurfista saltando sobre o mar ao pôr do sol"
-        className="absolute inset-0 h-full w-full object-cover"
+        className="absolute inset-0 h-full w-full object-cover object-[center_25%]"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
       <div className="absolute inset-0 bg-gradient-to-r from-background/80 to-transparent" />
