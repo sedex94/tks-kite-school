@@ -4,10 +4,10 @@ import { whatsappLink } from '@/lib/site'
 
 const classes = [
   {
-    level: 'Iniciante',
+    level: 'Aula Avulsa',
     image: '/images/lesson-beginner.jpg',
     imagePosition: 'object-[center_22%]',
-    duration: 'Hora aula',
+    duration: 'Hora aula individual',
     price: 'R$ 350/aula',
     description:
       'Para quem nunca tocou em uma pipa. Você aprende teoria do vento, segurança, controle de kite em terra e os primeiros metros na água.',
@@ -20,10 +20,10 @@ const classes = [
     featured: false,
   },
   {
-    level: 'Intermediário',
+    level: 'Curso Completo',
     image: '/images/lesson-intermediate.jpg',
     imagePosition: 'object-center',
-    duration: 'Curso completo',
+    duration: 'Pacote do iniciante ao autônomo',
     price: 'R$ 3.500',
     description:
       'Já consegue subir na prancha? Aqui você ganha autonomia: water start consistente, navegar de bolina e voltar ao ponto de partida.',
@@ -36,10 +36,10 @@ const classes = [
     featured: true,
   },
   {
-    level: 'Avançado',
+    level: 'Aula Avançada',
     image: '/images/lesson-advanced.jpg',
     imagePosition: 'object-[center_28%]',
-    duration: 'sob medida',
+    duration: 'Sob medida',
     price: 'consulte valores',
     description:
       'Para velejadores independentes que querem evoluir. Saltos, transições, primeiras manobras de freestyle e leitura avançada de condições.',
@@ -62,7 +62,7 @@ export function ClassesSection() {
             Nossas aulas
           </p>
           <h2 className="mt-3 font-heading text-4xl font-700 uppercase leading-tight tracking-tight text-balance sm:text-5xl">
-            Escolha o seu nível e comece a evoluir
+            Escolha a sua opção e comece a evoluir
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-muted-foreground text-pretty">
             Todas as aulas são individuais ou em duplas, com equipamento incluso
@@ -123,12 +123,12 @@ export function ClassesSection() {
                 >
                   <a
                     href={whatsappLink(
-                      `Olá! Tenho interesse nas aulas de nível ${c.level} na TKS Kite School.`,
+                      `Olá! Tenho interesse na opção ${c.level} na TKS Kite School.`,
                     )}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Quero esse nível
+                    Quero essa opção
                   </a>
                 </Button>
               </div>
