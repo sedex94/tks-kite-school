@@ -8,10 +8,10 @@ export function Hero() {
       <img
         src="/images/hero-kite.jpg"
         alt="Kitesurfista saltando sobre o mar ao pôr do sol"
-        className="absolute inset-0 h-full w-full object-cover object-[center_25%]"
+        className="absolute inset-0 h-full w-full object-cover object-[72%_68%]"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
-      <div className="absolute inset-0 bg-gradient-to-r from-background/80 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/30 to-background/80" />
+      <div className="absolute inset-0 bg-gradient-to-r from-background/85 via-background/40 to-transparent" />
 
       <div className="relative mx-auto flex min-h-screen max-w-7xl flex-col justify-center px-4 pt-24 pb-16 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
