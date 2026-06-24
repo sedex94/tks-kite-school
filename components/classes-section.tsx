@@ -7,8 +7,8 @@ const classes = [
     level: 'Iniciante',
     image: '/images/lesson-beginner.jpg',
     imagePosition: 'object-[center_22%]',
-    duration: '3 a 4 aulas',
-    price: 'a partir de R$ 300/aula',
+    duration: 'Hora aula',
+    price: 'R$ 350/aula',
     description:
       'Para quem nunca tocou em uma pipa. Você aprende teoria do vento, segurança, controle de kite em terra e os primeiros metros na água.',
     features: [
@@ -23,8 +23,8 @@ const classes = [
     level: 'Intermediário',
     image: '/images/lesson-intermediate.jpg',
     imagePosition: 'object-center',
-    duration: '4 a 6 aulas',
-    price: 'a partir de R$ 280/aula',
+    duration: 'Curso completo',
+    price: 'R$ 3.500',
     description:
       'Já consegue subir na prancha? Aqui você ganha autonomia: water start consistente, navegar de bolina e voltar ao ponto de partida.',
     features: [
