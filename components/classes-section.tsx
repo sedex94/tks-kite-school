@@ -6,6 +6,7 @@ const classes = [
   {
     level: 'Iniciante',
     image: '/images/lesson-beginner.jpg',
+    imagePosition: 'object-[center_22%]',
     duration: '3 a 4 aulas',
     price: 'a partir de R$ 300/aula',
     description:
@@ -21,6 +22,7 @@ const classes = [
   {
     level: 'Intermediário',
     image: '/images/lesson-intermediate.jpg',
+    imagePosition: 'object-center',
     duration: '4 a 6 aulas',
     price: 'a partir de R$ 280/aula',
     description:
@@ -36,6 +38,7 @@ const classes = [
   {
     level: 'Avançado',
     image: '/images/lesson-advanced.jpg',
+    imagePosition: 'object-[center_28%]',
     duration: 'sob medida',
     price: 'consulte valores',
     description:
@@ -81,7 +84,7 @@ export function ClassesSection() {
                 <img
                   src={c.image || '/placeholder.svg'}
                   alt={`Aula de kitesurf nível ${c.level}`}
-                  className="h-full w-full object-cover"
+                  className={`h-full w-full object-cover ${c.imagePosition}`}
                 />
                 {c.featured && (
                   <span className="absolute right-3 top-3 rounded-full bg-primary px-3 py-1 text-xs font-semibold uppercase tracking-wide text-primary-foreground">
