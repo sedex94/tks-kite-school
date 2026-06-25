@@ -9,8 +9,8 @@ export const site = {
   whatsapp: '5522999332145',
   whatsappLabel: '(22) 99933-2145',
   // Troque pelo e-mail real da escola
-  email: 'contato@tkskite.com.br',
-  instagram: 'https://instagram.com',
+  email: 'tavinhotks10@gmail.com',
+  instagram: 'https://instagram.com/@tavinho_tks',
 } as const
 
 export const navLinks = [

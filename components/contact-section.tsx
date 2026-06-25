@@ -79,7 +79,7 @@ export function ContactSection() {
               <InfoCard
                 icon={<AtSign className="h-5 w-5" />}
                 title="Instagram"
-                lines={['@tkskiteschool']}
+                lines={['@tavinho_tks']}
                 href={site.instagram}
               />
             </div>
