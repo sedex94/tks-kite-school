@@ -10,7 +10,7 @@ export const site = {
   whatsappLabel: '(22) 99933-2145',
   // Troque pelo e-mail real da escola
   email: 'tavinhotks10@gmail.com',
-  instagram: 'https://instagram.com/@tavinho_tks',
+  instagram: 'https://instagram.com/tavinho_tks',
 } as const
 
 export const navLinks = [

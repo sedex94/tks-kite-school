@@ -74,7 +74,7 @@ export function SiteFooter() {
                   className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
                 >
                   <AtSign className="h-4 w-4 text-primary" />
-                  @tkskiteschool
+                  @tavinho_tks
                 </a>
               </li>
             </ul>
